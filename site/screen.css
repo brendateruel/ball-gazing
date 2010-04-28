@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	background-color: transparent;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+
+body {
+	line-height: 1;
+	color: #3b2314;
+	background: #660000 url("i/bgbody.gif") repeat 0 0;
+	font: 12px/15px Verdana, Helvetica, Arial, sans-serif;
+	}
+
+#wrap {
+	position: relative;
+	width: 640px;
+	height: auto;
+	margin-top: 80px;
+	}
+
+h1 {
+	font: 18px/21px Georgia, Times, serif;
+	color: #3b2314;
+	margin-bottom: 4px;
+	}
+
+#madam {
+	position: absolute;
+	top: -70px;
+	left: 211px;
+	width: 218px;
+	height: 276px;
+	background: transparent url("i/madam.png") no-repeat 0 0;
+	z-index: 1;
+	}
+	
+#header-question,
+#header-answer {
+	position: relative;
+	width: 640px;
+	height: 251px;
+	background: transparent url("i/bgheader-1.png") no-repeat 0 0;
+	}
+	
+#header-answer { background: transparent url("i/bgheader-2.png") no-repeat 0 0; }
+	
+#content {
+	position: relative;
+	width: 640px;
+	height: auto;
+	background: transparent url("i/bgcontent.png") repeat-y 0 0;
+	padding: 10px 0 10px 0;
+	}
+
+input#form-question {
+	width: 200px;
+	height: 20px;
+	color: #999;
+	font-style: italic;
+	}
+
+input#btquestion {
+	width: 48px;
+	height: 26px;
+	margin-top: -4px;
+	}
+	
+#box {
+	position: relative;
+	width: 380px;
+	height: auto;
+	text-align: center;
+	}
+	
+#box-top {
+	position: relative;
+	width: 380px;
+	height: 15px;
+	background: transparent url("i/box-top.png") no-repeat 0 0;
+	}
+	
+#box-mid {
+	position: relative;
+	width: 380px;
+	height: auto;
+	background: transparent url("i/box-mid.png") repeat-y 0 0;
+	padding: 6px 0 6px 0;
+	}
+	
+#box-bot {
+	position: relative;
+	width: 380px;
+	height: 15px;
+	background: transparent url("i/box-bot.png") no-repeat 0 0;
+	padding-bottom: 2px;
+	}
+	
+#footer {
+	position: relative;
+	width: 640px;
+	height: 24px;
+	background: transparent url("i/bgfooter.png") no-repeat 0 0;
+	}
+	
