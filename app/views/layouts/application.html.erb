@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+	<head>
+        <title>Madam Ruby's Ball Gazing</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<%= stylesheet_link_tag 'application' %>
+        <![endif]-->
+		<%= javascript_include_tag :defaults %> 
+		<!--JavaScript-->
+		function typeQuestion() { this.setProperty('value',''); }
+		function noTypeQuestion() {
+		if(this.getProperty('value')=='') {
+		this.setProperty('value','Type your question here...');
+		}
+		}
+		window.addEvent('domready', function() {
+		$$('input#form-question')[0].addEvents({'focus': typeQuestion,'blur': noTypeQuestion});
+		});
+		</script>
+    </head>
+<body>
+	<div id="wrap">
+		<div id="madam"></div>
+		<div id="header-question"></div>
+		<div id="content">
+			<div id="box">
+				<div id="box-top"></div>
+				<div id="box-mid">
+					<form id="question">
+						<%= yield %>
+					</form>
+				</div>
+				<div id="box-bot"></div>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
